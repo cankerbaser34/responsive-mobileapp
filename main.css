@@ -1,0 +1,60 @@
+body {
+	font-family: "Gentium Basic", serif !important;
+}
+
+#banner {
+	margin-top: 80px;
+}
+.transparent {
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.max-viewport {
+	min-height: 100vh;
+}
+.viewport-50 {
+	min-height: 50vh;
+}
+
+.download {
+	background: linear-gradient(to left, rgba(0, 0, 255, 0.3), rgba(0, 0, 0, 0.9)),
+		url(./pictures/mobile-phone-1419275_1920.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#team img {
+	margin-top: -100px;
+}
+
+#team .card {
+	background-color: whitesmoke;
+}
+
+#team .card:hover {
+	background-color: darkgray;
+}
+
+#team .fab {
+	color: rgb(231, 133, 21);
+}
+
+#lower-banner {
+	background: linear-gradient(to left, rgba(0, 0, 255, 0.3), rgba(0, 0, 0, 0.9)),
+		url(./pictures/Blackberry-Mobile-PNG-HD.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}
+
+#nav li a {
+	font-size: 30px;
+	transition: all 0.5s ease;
+}
+
+#nav li a:hover {
+	color: brown;
+}
